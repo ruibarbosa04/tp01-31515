@@ -304,7 +304,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>416</xloc>
       <yloc>352</yloc>
       <attributes_kjc/>
     </entry>
@@ -360,7 +360,7 @@
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
+      <clear_files>Y</clear_files>
       <set_logfile>N</set_logfile>
       <logfile/>
       <logext/>
@@ -382,7 +382,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
+      <xloc>816</xloc>
       <yloc>352</yloc>
       <attributes_kjc/>
     </entry>
@@ -394,7 +394,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>976</xloc>
+      <xloc>1152</xloc>
       <yloc>352</yloc>
       <attributes_kjc/>
     </entry>
@@ -424,6 +424,51 @@
       <nr>0</nr>
       <xloc>976</xloc>
       <yloc>496</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Mail</name>
+      <description/>
+      <type>MAIL</type>
+      <attributes/>
+      <server>smtp.gmail.com</server>
+      <port>587</port>
+      <destination>${EMAIL_DESTINO}</destination>
+      <destinationCc/>
+      <destinationBCc/>
+      <replyto>${SMTP_USER}</replyto>
+      <replytoname>ETL Transferencias</replytoname>
+      <subject>ETL transferencias concluido</subject>
+      <include_date>N</include_date>
+      <contact_person/>
+      <contact_phone/>
+      <comment>Job executado com sucesso. Resultado em anexo.</comment>
+      <include_files>Y</include_files>
+      <zip_files>N</zip_files>
+      <zip_name/>
+      <use_auth>Y</use_auth>
+      <use_secure_auth>Y</use_secure_auth>
+      <auth_user>${SMTP_USER}</auth_user>
+      <auth_password>${SMTP_PASSWORD}</auth_password>
+      <only_comment>N</only_comment>
+      <use_HTML>N</use_HTML>
+      <use_Priority>N</use_Priority>
+      <encoding>UTF-8</encoding>
+      <priority>normal</priority>
+      <importance>normal</importance>
+      <sensitivity>normal</sensitivity>
+      <secureconnectiontype>TLS</secureconnectiontype>
+      <replyToAddresses>${SMTP_USER}</replyToAddresses>
+      <filetypes>
+        <filetype>GENERAL</filetype>
+      </filetypes>
+      <embeddedimages>
+      </embeddedimages>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>992</xloc>
+      <yloc>352</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -465,8 +510,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Executar_03_enriquecer</from>
-      <to>Success</to>
+      <from>Write to log</from>
+      <to>Abort job</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -474,8 +519,17 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Write to log</from>
-      <to>Abort job</to>
+      <from>Executar_03_enriquecer</from>
+      <to>Mail</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Mail</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
