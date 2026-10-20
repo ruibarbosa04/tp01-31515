@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ligas>
+  <liga codigo="KR1">
+    <nome> SuperSport  HNL </nome>
+    <pais>CROÁCIA</pais>
+  </liga>
+  <liga codigo="A1">
+    <nome>bundesliga  austríaca</nome>
+    <pais> áustria </pais>
+  </liga>
+  <liga codigo="C1">
+    <nome>Swiss   Super League</nome>
+    <pais>SUÍÇA</pais>
+  </liga>
+  <liga codigo="RO1">
+    <nome> superliga </nome>
+    <pais>roménia</pais>
+  </liga>
+  <liga codigo="SA1">
+    <nome>Saudi  Pro League</nome>
+    <pais> ARÁBIA  SAUDITA</pais>
+  </liga>
+  <liga codigo="MLS1">
+    <nome>major  league  soccer</nome>
+    <pais>estados unidos </pais>
+  </liga>
+  <liga codigo="RSK1">
+    <nome>K  League 1</nome>
+    <pais> COREIA DO SUL</pais>
+  </liga>
+  <liga codigo="MEX1">
+    <nome>Liga  MX</nome>
+    <pais>méxico</pais>
+  </liga>
+  <liga codigo="L1">
+    <nome>  Bundesliga </nome>
+    <pais>ALEMANHA</pais>
+  </liga>
+  <liga codigo="GB1">
+    <nome>premier   league</nome>
+    <pais>inglaterra </pais>
+  </liga>
+  <liga codigo="ES1">
+    <nome>LALIGA</nome>
+    <pais> Espanha</pais>
+  </liga>
+  <liga codigo="IT1">
+    <nome>Serie  A</nome>
+    <pais>itália</pais>
+  </liga>
+  <liga codigo="FR1">
+    <nome> ligue 1</nome>
+    <pais>FRANÇA</pais>
+  </liga>
+  <liga codigo="PO1">
+    <nome>Liga   Portugal</nome>
+    <pais>portugal </pais>
+  </liga>
+  <liga codigo="NL1">
+    <nome>EREDIVISIE</nome>
+    <pais> países baixos</pais>
+  </liga>
+  <liga codigo="BE1">
+    <nome>Jupiler  Pro League</nome>
+    <pais>bélgica</pais>
+  </liga>
+  <liga codigo="TR1">
+    <nome> süper lig</nome>
+    <pais>TURQUIA</pais>
+  </liga>
+  <liga codigo="TS1">
+    <nome>Czech  First League</nome>
+    <pais>chéquia </pais>
+  </liga>
+  <liga codigo="GR1">
+    <nome>Super League</nome>
+    <pais> GRÉCIA</pais>
+  </liga>
+  <liga codigo="RU1">
+    <nome>premier  liga</nome>
+    <pais>rússia</pais>
+  </liga>
+  <liga codigo="SC1">
+    <nome>Scottish   Premiership</nome>
+    <pais>ESCÓCIA </pais>
+  </liga>
+  <liga codigo="BRA1">
+    <nome>Brasileirão  Série A</nome>
+    <pais> brasil</pais>
+  </liga>
+  <liga codigo="ARG1">
+    <nome>LIGA PROFESIONAL</nome>
+    <pais>argentina</pais>
+  </liga>
+  <liga codigo="COL1">
+    <nome>Categoría  Primera A</nome>
+    <pais>COLÔMBIA</pais>
+  </liga>
+  <liga codigo="SE1">
+    <nome>allsvenskan </nome>
+    <pais>suécia</pais>
+  </liga>
+  <liga codigo="NO1">
+    <nome> Eliteserien</nome>
+    <pais> NORUEGA</pais>
+  </liga>
+  <liga codigo="JAP1">
+    <nome>J1  League</nome>
+    <pais>japão </pais>
+  </liga>
+  <liga codigo="UKR1">
+    <nome> premier  liga  ucraniana </nome>
+    <pais>UCRÂNIA</pais>
+  </liga>
+  <liga codigo="DK1">
+    <nome>SUPERLIGAEN</nome>
+    <pais> dinamarca</pais>
+  </liga>
+  <liga codigo="PL1">
+    <nome>Ekstraklasa </nome>
+    <pais>POLÓNIA</pais>
+  </liga>
+  <liga codigo="SER1">
+    <nome>Super  Liga  Sérvia</nome>
+    <pais> sérvia </pais>
+  </liga>
+</ligas>
