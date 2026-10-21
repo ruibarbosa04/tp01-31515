@@ -1188,7 +1188,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>752</xloc>
+      <xloc>784</xloc>
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1716,27 +1716,21 @@
     <fields>
       <field>
         <name>player_id</name>
-        <rename/>
       </field>
       <field>
         <name>transfer_date</name>
-        <rename/>
       </field>
       <field>
         <name>transfer_season</name>
-        <rename/>
       </field>
       <field>
         <name>to_club_id</name>
-        <rename/>
       </field>
       <field>
         <name>transfer_fee</name>
-        <rename/>
       </field>
       <field>
         <name>market_value_in_eur</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
