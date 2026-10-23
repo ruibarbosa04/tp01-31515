@@ -6,7 +6,7 @@ Processo ETL (Extract, Transform, Load) com **Pentaho Data Integration (Spoon)**
 - **Aluno:** Rui Barbosa (nº 31515)
 - **Docente:** Óscar Ribeiro
 - **Curso:** Licenciatura em Engenharia de Sistemas Informáticos
-- **Vídeo de demonstração:** [PREENCHER LINK]
+- **Vídeo de demonstração:** (https://drive.google.com/file/d/1U_5UOAbD1wpSfi3XukRD4V6wU_mmgcLh/view?usp=sharing)
 
 ## O que o projeto faz
 
